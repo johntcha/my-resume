@@ -1,5 +1,6 @@
 <?php 
 $emailSent=false;
+$spam = false;
 if(isset($_POST['submit'])) {
   $honeyPot = $_POST['phoneNumber6tY4bPYk'];
   if (trim($honeyPot) != '') {
@@ -73,6 +74,13 @@ if(isset($_POST['submit'])) {
                 <div class="form-control">
 			
 			<textarea type="text" placeholder="Ecrivez votre message" id="message" style="resize: none;" name="message" /></textarea>
+			<div class="valid-message"><?php if ($emailSent != true){
+
+	}
+	else{
+		echo $validation;
+	}
+	?></div>
 			<i class="fas fa-check-circle"></i>
 			<i class="fas fa-exclamation-circle"></i>
 			<small>Error message</small>
@@ -92,15 +100,7 @@ if(isset($_POST['submit'])) {
 <p>Adresse mail: johntcha94@gmail.com</p>
 </div>
 <div class="Numéro de téléphone">
-<p>Numéro de téléphone: +33 6 59 02 16 63 
-	<?php if ($emailSent != true){
-
-	}
-	else{
-		echo $validation;
-	}
-	?>
-</p>
+<p>Numéro de téléphone: +33 6 59 02 16 63 </p>
 </div>
 <div class="zone">
 <p>Zone de travail: Paris et l'Île de France. Intéréssé par l'étranger, notamment le Japon.</p>

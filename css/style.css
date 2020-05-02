@@ -48,7 +48,11 @@ nav.mb-1.navbar.navbar-expand-lg {
     padding-right: 0px;
 }
 
-@media screen and (min-width: 1000px){
+ul.navbar-nav.ml-auto.nav-flex-icons li {
+    padding-right: 30px;
+}
+
+@media screen and (min-width: 980px){
   ul.navbar-nav.mr-auto {
     margin-left: 32%;
     background: #045b93;
@@ -1290,4 +1294,10 @@ section#projets .card:hover {
 
 .hide {
     display: none!important;
+}
+
+.valid-message {
+    position: relative;
+    top: 307px;
+    left: 375px;
 }

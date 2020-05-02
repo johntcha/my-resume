@@ -1,6 +1,12 @@
 <?php 
 
 if(isset($_POST['submit'])) {
+  $honeyPot = $_POST['phoneNumber6tY4bPYk'];
+  if (trim($honeyPot) != '') {
+      // This is a spam robot. Take action!
+  }
+  else{
+    
   if(trim($_POST['name']) === '') {
   } 
   else {
@@ -31,6 +37,8 @@ if(isset($_POST['submit'])) {
 
     mail('johntcha94@gmail.com', $subject, $body, $headers);
     $emailSent = true;
+  }
+
 
   //}
 

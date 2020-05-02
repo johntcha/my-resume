@@ -44,7 +44,10 @@ nav.mb-1.navbar.navbar-expand-lg {
     position: fixed;
     width: 100%;
     top: 0;
+    padding-left: 0px;
+    padding-right: 0px;
 }
+
 @media screen and (min-width: 1000px){
   ul.navbar-nav.mr-auto {
     margin-left: 32%;
@@ -1263,4 +1266,28 @@ section#projets .card:hover {
 #button.show {
   opacity: 1;
   visibility: visible;
+}
+
+.wg-default, .wg-default .country-selector {
+    position: fixed;
+    bottom: auto!important;
+    right: auto!important;
+    left: 40px;
+    top: 9px;
+}
+
+.wg-default .wg-drop.country-selector a {
+    color: white;
+}
+
+.wg-drop.country-selector .wgcurrent {
+    background: #17879d;
+}
+
+.wg-drop.country-selector:not(.closed) ul {
+    background: #17879d!important;
+}
+
+.hide {
+    display: none!important;
 }

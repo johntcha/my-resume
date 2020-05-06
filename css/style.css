@@ -1,6 +1,6 @@
-h1{
-  line-height: 0!important;
-  margin-bottom: 50px!important;
+.container h1{
+  line-height: 0;
+  margin-bottom: 50px;
 }
 
 h2.my-name {
@@ -13,18 +13,25 @@ header#header {
   color:white;
 }
 
+div#header {
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+}
+
 div#my-title {
     text-align: center;
     height: 250px;
     padding-top: 70px;
     font-size: 25px;
     margin-bottom: 40px;
+    height:auto;
+	overflow:visible;
 }
 
-body{
-  color:#4e5658!important;
+html body{
+  color:#4e5658;
   overflow-x: hidden;
-  background-color: #c3d2d5!important;
+  background-color: #c3d2d5;
   padding-top:55px;
 }
 @media screen and (min-width: 1000px){
@@ -52,19 +59,24 @@ ul.navbar-nav.ml-auto.nav-flex-icons li {
     padding-right: 30px;
 }
 
-@media screen and (min-width: 980px){
+@media screen and (min-width: 980px) and (max-width: 979px){
   ul.navbar-nav.mr-auto {
     margin-left: 32%;
     background: #045b93;
   }
+}
+@media screen and (min-width: 980px){
+ul.navbar-nav.mr-auto{
+margin-left: 32%;
+}
 }
 
 ul.navbar-nav.ml-auto.nav-flex-icons {
     padding-bottom: 18px;
 }
 
-.navbar-toggler {
-  line-height: unset!important;
+body .navbar-toggler {
+  line-height: unset;
 }
 
 button.navbar-toggler {
@@ -110,15 +122,28 @@ img.my-photo {
   margin-bottom: 50px;
 }
 
-.col-sm, .col-lg{
-  box-shadow: 0px 1px 22px 4px rgba(0, 0, 0, 0.07);
+
+.row {
+    background: #edf1f2;
+    box-shadow: 0px 1px 22px 4px rgba(0, 0, 0, 0.07);
+    border-radius: 1%;
 }
+
 section{
   padding-bottom: 50px;
   padding-top: 50px;
 }
 section#footer {
     padding-bottom: 0;
+}
+@media screen and (max-width: 570px){  
+  footer {
+    margin-top: 100px;
+}
+}
+
+.col-lg {
+    background: #edf1f2;
 }
 
 .fab:hover {
@@ -181,9 +206,19 @@ a.github {
   border-radius: 50%;
 }
 
-button#sidebar-actions {
-    display: none;
+.meter.blue span.ninety {
+    max-width: 90%;
 }
+
+.meter.blue span.eightyseven {
+    max-width: 87%;
+}
+
+.meter.blue span.eightyfive {
+    max-width: 85%;
+}
+
+
 
 #main-page section .main-wrapper-bg {
     margin: 0 0 0 0;
@@ -214,6 +249,9 @@ h1 {
 	border-color:#17879d;
 }
 
+section#contact h1{
+  line-height: 0;
+}
 span.span_title {
   background-color: #c3d2d5;
   color: white;
@@ -251,6 +289,12 @@ h2 {
 
 .entry-content a:hover {
     color: white;
+}
+
+@media screen and (max-width: 990px){
+.bar-meter {
+    margin-bottom: 30px;
+}
 }
 
 span.bar_adap {
@@ -413,6 +457,12 @@ i.responsive-nav-show-hide.fa.fa-chevron-down {
 /* Colors */
 /* Calculations */
 /* Placeholders */
+section#timeline {
+    background: #edf1f2;
+    box-shadow: 0px 1px 22px 4px rgba(0, 0, 0, 0.07);
+    border-radius: 1%;
+}
+
  @media (min-width: 1285px) {
    #timeline .demo-card:nth-child(odd) .head::after, #timeline .demo-card:nth-child(even) .head::after {
      position: absolute;
@@ -574,18 +624,14 @@ i.responsive-nav-show-hide.fa.fa-chevron-down {
 }
  #timeline .demo-card .head h2 {
    text-transform: uppercase;
-   font-size: 1.3rem;
+   font-size: 1.1rem;
    font-weight: inherit;
    letter-spacing: 2px;
    margin: 0;
    padding-bottom: 6px;
    line-height: 1rem;
 }
- @media (min-width: 480px) {
-   #timeline .demo-card .head h2 {
-     font-size: 165%;
-     line-height: 1.4rem;
-  }
+
   @media all and (min-width: 481px) and (max-width: 999px){
    #timeline .demo-card .head h2 {
      font-size: 100%;
@@ -674,7 +720,11 @@ i.responsive-nav-show-hide.fa.fa-chevron-down {
 i.fas.fa-map-marker-alt{
   padding: 0;
   padding-right: 5px;
-  font-size: 20px!important;
+  font-size: 20px;
+}
+
+i.fa.fa-tasks {
+    font-size: 30px;
 }
 
 .button_video{
@@ -868,30 +918,65 @@ div#descrition-lois-paint{
 }
 }
 
-@media (max-width:1000px){
-div#descrition-lois-volleyball{
-  left: 40%!important;
-  color:white!important;
+.col-lg.lois.volley, .col-lg.lois.cook, .col-lg.lois.map{
+  margin-top: 20px;
 }
-div#descrition-lois-cook{
-  left: 41%!important;
-  color:white!important;
+
+@media (max-width:1000px) and (max-width: 768px) {
+.row div#descrition-lois-volleyball{
+  left: 40%;
+  color:white;
 }
-div#descrition-lois-game{
-  left: 38%!important;
-  color:white!important;
+.row div#descrition-lois-cook{
+  left: 41%;
+  color:white;
 }
-div#descrition-lois-guitar{
-  left: 43%!important;
-  bottom: 43%!important;
-  color:white!important;
+.row div#descrition-lois-game{
+  left: 38%;
+  color:white;
 }
-div#descrition-lois-paint{
-  left: 21%!important;;
-  bottom: 34%!important;
+.row div#descrition-lois-guitar{
+  left: 43%;
+  bottom: 43%;
+  color:white;
 }
-.trip-title{
-  left: 304px!important;
+.row div#descrition-lois-paint{
+  left: 21%;;
+  bottom: 34%;
+}
+.row .trip-title{
+  left: 304px;
+}
+}
+
+@media screen and (max-width: 767px){
+.row .trip-title{
+  left: 176px;
+}
+.row div#descrition-lois-volleyball, .row div#descrition-lois-cook, .row div#descrition-lois-game, .row div#descrition-lois-guitar{
+  color:white;
+}
+.row div#descrition-lois-paint {
+    left: 5%;
+}
+.row div#descrition-lois-game {
+    left: 35%;
+}
+}
+
+@media screen and (max-width: 445px){
+.row .trip-title{
+  left: 125px;
+}
+.row div#descrition-lois-volleyball, .row div#descrition-lois-cook, .row div#descrition-lois-game, .row div#descrition-lois-guitar{
+  color:white;
+}
+.row div#descrition-lois-paint {
+    left: 5%;
+}
+.row div#descrition-lois-game {
+    left: 32%;
+    color: white;
 }
 }
 
@@ -966,6 +1051,9 @@ p.card-text {
     color: #3a3939;
 }
 
+.accordion>.card>.card-header {
+    background: #edf1f2;
+}
 p.card-text:hover {
     color: #3498db;
 }
@@ -992,6 +1080,11 @@ height: 125px;
   margin-bottom: 10px;
   padding-bottom: 20px;
   position: relative;
+}
+@media screen and (max-width: 750px){
+.form-control .errormsg{
+    width: 240px;
+  }
 }
 
 .form-control label {
@@ -1090,7 +1183,7 @@ input.button{
   padding: 10px;
   margin-top: 20px;
   position: absolute;
-  bottom: 0px;
+  bottom: 28px;
   width: 50%;
 }
 
@@ -1159,13 +1252,26 @@ textarea#message {
   left: -1px;
   width: 581px;
   height: 250px;
+}
 
+@media screen and (max-width: 710px){ 
+textarea#message {
+    width: 250px;
+}
 }
 
 .wrap-control {
     padding-bottom: 20px;
 }
+.wrap-control.msg {
+    width: 581px;
+}
 
+@media screen and (max-width: 710px){
+.wrap-control.msg {
+    width: 250px;
+}
+}
 .form-control.errormsg {
     height: 50px;
 }
@@ -1182,23 +1288,23 @@ textarea#message {
 }
 
 .row.row-form{
-  height:650px;
+  height: 700px;
+  margin-top: 55px;
 }
 
 .form-control.success {
   width: 220px;
 }
 
-.form-control.successmsg {
-  width: 466px;
-}
-
 button.btn.btn-link {
     font-size: 25px;
     font-weight: 700;
-    color: #0472bf;
+    color: #4e5658;
 }
 
+button.btn.btn-link:hover {
+    color: #0472bf;
+}
 img.img-cv {
     height: 125px;
     padding-right: 15px;
@@ -1219,6 +1325,17 @@ section#projets .col-lg {
     padding-left: 30%;
     padding-bottom: 20px;
     padding-top: 20px;
+}
+}
+
+@media screen and (max-width: 765px) and (min-width: 446px){
+section#projets .col-lg {
+    padding-left: 65px;
+  }
+}
+@media screen and (max-width: 445px){
+section#projets .col-lg {
+    padding-left: 5px;
 }
 }
 
@@ -1272,7 +1389,7 @@ section#projets .card:hover {
   visibility: visible;
 }
 
-.wg-default, .wg-default .country-selector {
+body div .wg-default, .wg-default .country-selector {
     position: fixed;
     bottom: auto!important;
     right: auto!important;
@@ -1288,16 +1405,93 @@ section#projets .card:hover {
     background: #17879d;
 }
 
-.wg-drop.country-selector:not(.closed) ul {
-    background: #17879d!important;
+body div .wg-drop.country-selector:not(.closed) ul {
+    background: #17879d;
 }
 
-.hide {
-    display: none!important;
+body div .wg-drop.country-selector .wgcurrent {
+    border: none;
+}
+
+body div .wg-drop.country-selector ul {
+    border: none;
+}
+form#form .hide {
+    display: none;
 }
 
 .valid-message {
     position: relative;
-    top: 307px;
+    top: 285px;
     left: 375px;
+    color: green;
+    font-size: 25px;
+    font-weight: 600;
+}
+}
+
+h3 {
+    padding-bottom: 15px;
+}
+
+button.btn-profil {
+    background-color: #0472bf;
+    border: 2px solid #0472bf;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+button.btn.btn-outline-primary.btn-profil {
+    margin-bottom: 15px;
+}
+
+button.btn-profil a{
+  color:white;
+}
+
+button.btn.btn-outline-primary.savoir.btn-profil {
+    margin-top: 60px;
+}
+
+img.weglot-project{
+  width: 286px;
+}
+
+.card img{
+  height: 160px;
+}
+
+@media screen and (max-width: 450px){
+body div .wg-default, .wg-default .country-selector {
+    left: 15px;
+}
+
+button.navbar-toggler:lang(ja) {
+    margin-left: -34px;
+}
+
+#timeline .demo-card .head h2{
+  font-size: 1.0rem;
+}
+}
+@media screen and (max-width: 600px){
+button.navbar-toggler {
+    margin-left: -23px;
+}
+}
+
+div#error-page {
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    color: white;
+    top: 35%;
+    font-weight: 700;
+}
+
+img.warning {
+    position: absolute;
+    left: 45%;
+    bottom: 100%;
+    max-width: 14%;
 }

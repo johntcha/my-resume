@@ -28,7 +28,7 @@ function checkInputs() {
   const messageValue = message.value.trim();
   
   if(usernameValue === '') {
-    setErrorFor(username, 'Le champs ne doit pas être vide');
+    setErrorFor(username, "The field shouldn't be empty");
     not_valid = true;
   } else {
     setSuccessFor(username);
@@ -36,10 +36,10 @@ function checkInputs() {
   }
   
   if(emailValue === '') {
-    setErrorFor(email, "L 'email ne doit pas être vide");
+    setErrorFor(email, "The email shouldn't be blank");
     not_valid = true;
   } else if (!isEmail(emailValue)) {
-    setErrorFor(email, "L 'email nest pas valide");
+    setErrorFor(email, "The email is not valid");
     not_valid = true;
   } else {
     setSuccessFor(email);
@@ -47,7 +47,7 @@ function checkInputs() {
   }
 
   if(messageValue === '' || messageValue.length < 10) {
-    setErrorFor1(message, 'Vous devez entrer un message plus long');
+    setErrorFor1(message, 'You have to enter a longer message');
     not_valid = true;
   } else {
     setSuccessFor1(message);

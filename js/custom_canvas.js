@@ -135,6 +135,7 @@ $myCanvas.drawArc({
 
 });
 //progress bar
+
 $(".meter > span").each(function() {
   $(this)
     .data("origWidth", $(this).width())

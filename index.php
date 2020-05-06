@@ -15,7 +15,7 @@
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
       <script src='https://kit.fontawesome.com/a076d05399.js'></script>
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-      <script src="https://maps.google.com/maps/api/js?key=AIzaSyDS9-mSzppwV8VXLM48aPMV7tIYUfgUvZg&amp;language=en" type="text/javascript"></script>
+      <script src="https://maps.google.com/maps/api/js?key=sqdqsdqsdqsdqsdqdsqdsqsqd&amp;language=en" type="text/javascript"></script>
       <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
       <link rel="icon" href="./img/favicon.png" type="image/x-icon">
       <link rel="alternate" hreflang="fr" href="http://johntcha.com">

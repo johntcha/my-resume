@@ -8,7 +8,7 @@
             Après avoir obtenu mon baccalauréat scientifique S en 2014, j'ai décidé de me lancer dans une classe préparatoire <abbr title="Physique-Chimie et Sciences de l'Ingénieur">PCSI/PSI</abbr>.
             J'ai ensuite effectué une école d'ingénieurs Polytech à Annecy-Chambéry dans le domaine de <strong>l'électronique et l'informatique</strong>.
          </p>
-         <p>Ma formation lors de cette classe préparatoire m'a donné des fondamentaux solides en sciences ainsi qu'une <strong>capacité d'organisation et de rigourosité</strong>. A Polytech, j'ai pu développer divers outils dans le domaines de l'électronique ainsi que dans l'informatique tels que la <strong>programmation et le fonctionnement des réseaux</strong>. J'ai pu à travers mes stages et projets scolaires appliquer ces compétences, en apprendre des nouvelles et les renforcer comme par exemple la programmation en architecture <abbr title="Modèle Vue Contrôleur">MVC</abbr> en <strong>PHP et JavaScript</strong>. J'ai aussi développé des compétences humaines telles que le <strong>travail d'équipe, la gestion de projets et l'adaptation à un nouvel environnement</strong>.</p>
+         <p>Ma formation lors de cette classe préparatoire m'a donné des fondamentaux solides en sciences ainsi qu'une <strong>capacité d'organisation et de rigourosité</strong>. A Polytech, j'ai pu développer divers outils dans le domaine de l'électronique ainsi que dans l'informatique tels que la <strong>programmation et le principe de fonctionnement des réseaux internet</strong>. J'ai pu à travers mes stages et projets scolaires appliquer ces compétences, en apprendre des nouvelles et les renforcer comme par exemple la programmation en architecture <abbr title="Modèle Vue Contrôleur">MVC</abbr> en <strong>PHP et JavaScript</strong>. J'ai aussi développé des compétences humaines telles que le <strong>travail d'équipe, la gestion de projets et l'adaptation à un nouvel environnement</strong>.</p>
          <button type="button" class="btn btn-outline-primary btn-profil">
          <a href="#contact"  id="scroll-to">Me contacter</a>
          </button>
@@ -98,7 +98,7 @@
       <div class="col-sm dev">
          <i class="fas fa-code"></i>
          <h2>Développement</h2>
-         <p>Lors de ma formation, j'ai appris à utiliser plusieurs languages de programmation tels que le <strong>Python, C, le Java, le PHP, le SQL et JavaScript</strong> mais celles que j'ai le plus utilisées pour mes projets sont celles orientées web <strong>(PHP, SQL, JavaScript) ainsi que le Python</strong>. J'ai appris en autodidacte et lors des mes stages à utiliser quelques frameworks ainsi que différentes librairies JavaScript. J'ai aussi eu l'occasion lors de ma formation d'utiliser le language <strong>MATLAB</strong> pour des projets d'électronique et d'analyse d'images. </p>
+         <p>Lors de ma formation, j'ai appris à utiliser plusieurs languages de programmation tels que le <strong>Python, C, le Java, le PHP, le SQL et JavaScript</strong> mais celles que j'ai le plus utilisées pour mes projets sont celles orientées web <strong>(PHP, SQL, JavaScript) ainsi que le Python</strong>. J'ai appris en autodidacte et lors des mes stages à utiliser quelques frameworks (Bootstrap, Django) ainsi que différentes librairies JavaScript(JQuery, ReactJS). J'ai aussi eu l'occasion lors de ma formation d'utiliser le language <strong>MATLAB</strong> pour des projets d'électronique et d'analyse d'images. </p>
       </div>
       <div class="col-sm gestion_projet">
          <i class="fas fa-project-diagram"></i>
@@ -111,7 +111,7 @@
       <div class="col-sm languages">
          <i class='fas fa-language'></i>
          <h2>Langages</h2>
-         <p>Je parle couramment anglais, avec un bon anglais écrit professionnel <strong>(TOEIC 890)</strong>. Je parle aussi japonais, que j'ai appris en autodidacte, à un niveau de conversation quotidien <strong>(niveau B1/B2)</strong>. Je suis toujours en apprentissage et compte arriver à un niveau courant très prochainement <strong>(niveau B2/C1)</strong>. Je parle bien-sûr français à un niveau natif.</p>
+         <p>Je parle <strong>couramment anglais</strong>, avec un bon anglais écrit professionnel <strong>(TOEIC 890)</strong>. Je parle aussi <strong>japonais</strong>, que j'ai appris en autodidacte, à un niveau de conversation quotidien <strong>(niveau B1/B2)</strong>. Je suis toujours en apprentissage et compte arriver à un niveau courant très prochainement <strong>(niveau B2/C1)</strong>. Je parle bien-sûr <strong>français</strong> à un niveau natif.</p>
       </div>
    </div>
 </section>

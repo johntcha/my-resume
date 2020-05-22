@@ -32,12 +32,12 @@
    
      }
      else{
-      $subject = 'Vous avez un message de'.$name;
-       $body = 'Name: $name nnEmail: $email nnComments: $message';
-       $headers = 'From: '.$name.' <'.$email.'>' . 'rn' . 'Reply-To: ' . $email;
-       mail('johntcha94@gmail.com', $subject, $body, $headers);
-       $emailSent = true;
-       $validation = "Merci, votre message a été envoyé!";
+	    ini_set( 'display_errors', 1 );
+	    error_reporting( E_ALL );
+	    $subject = 'Vous avez un message de '.$name;
+	    mail('johntcha94@gmail.com', $subject, $message, $email);
+	    $emailSent = true;
+	    $validation = "Merci, votre message a été envoyé!";
      }
      }
    } ?>

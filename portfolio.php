@@ -37,7 +37,7 @@
    <div class="row">
       <div class="col-lg">
          <div class="card" style="width: 18rem;">
-            <a href="https://petlife.co.jp/">
+            <a>
                <img src="/img/under-construction.jpg" alt="projet informatique weglot" class="weglot-project">
                <div class="card-body">
                   <span class="site-title">Weglot Support Dashboard</span>
@@ -72,7 +72,7 @@
       <div class="w-100"></div>
       <div class="col-lg">
          <div class="card petlife" style="width: 18rem;">
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a target="_blank" rel="noopener noreferrer">
                <img src="./img/mario.JPG" class="card-img-top" alt="developpement du jeu mario">
                <div class="card-body">
                   <span class="site-title">Jeu Mario</span>
@@ -81,6 +81,10 @@
             </a>
          </div>
       </div>
+      <div class="col-lg">
+       
+      </div>
+
    </div>
    </div>
 </section>

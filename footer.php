@@ -30,7 +30,7 @@
             <img src="./img/FR-CV.JPG" class="img-cv" alt="CV ingénieur informatique">
             </a>
          </li>
-         <li class="mes_cvs"><a href="./img/CV-john-tcha-english.pdf">
+         <li class="mes_cvs"><a href="./img/resume-john-tcha-english.pdf">
             <img src="./img/EN-CV.JPG" class="img-cv" alt="resume in english">
             </a>
          </li>

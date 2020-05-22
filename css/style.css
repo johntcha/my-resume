@@ -753,6 +753,10 @@ button.btn.btn-primary.video-btn.review {
     line-height: 0.7;
 }
 
+div#myModal1 {
+    z-index: 99999;
+}
+
 @media (min-width: 1285px){
 .modal-content{
   width:139%!important;
@@ -1427,8 +1431,9 @@ form#form .hide {
     color: green;
     font-size: 25px;
     font-weight: 600;
+    z-index: 99;
 }
-}
+
 
 h3 {
     padding-bottom: 15px;
@@ -1455,6 +1460,10 @@ button.btn.btn-outline-primary.savoir.btn-profil {
 
 img.weglot-project{
   width: 286px;
+}
+
+.col-lg .card {
+    height: 87%;
 }
 
 .card img{
